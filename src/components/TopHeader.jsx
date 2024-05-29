@@ -1,4 +1,5 @@
 import { useCallback } from "react";
+import PropTypes from "prop-types";
 
 const TopHeader = ({ className = "" }) => {
 	const onSearchTextClick = useCallback(() => {
